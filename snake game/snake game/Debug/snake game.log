@@ -1,0 +1,26 @@
+﻿Build started 5/8/2019 11:04:55 PM.
+     1>Project "c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\snake game\snake game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\snake game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp
+         game.cpp
+     1>c:\users\abdel\documents\visual studio 2010\projects\snake game\snake game\game.cpp(59): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\abdel\documents\visual studio 2010\projects\snake game\snake game\game.cpp(61): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\Debug\snake game.exe" /NOLOGO Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\snake game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\Debug\snake game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\Debug\snake game.lib" /MACHINE:X86 Debug\game.obj
+         Debug\game0.obj
+         LINK : c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\Debug\snake game.exe not found or not built by the last incremental link; performing full link
+         snake game.vcxproj -> c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\Debug\snake game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\Debug\snake game.exe;#1" /manifest "Debug\snake game.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\snake game.unsuccessfulbuild".
+         Touching "Debug\snake game.lastbuildstate".
+     1>Done Building Project "c:\Users\abdel\Documents\Visual Studio 2010\Projects\snake game\snake game\snake game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.89
